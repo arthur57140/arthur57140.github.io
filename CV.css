@@ -1,0 +1,94 @@
+a {
+    color: rgb(127, 182, 0);
+    font-family: avenir;
+    font-size: large;
+    padding: 8px;
+    border: 3px solid rgb(51, 173, 61);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+ul {
+    background-color: white ;
+    font-family: avenir;
+}
+
+h1 {
+    color : rgb(92, 87, 87);
+    font-family: avenir;
+    background-color: white;
+    margin-top: 50px;
+}
+
+h2 {
+    color : rgb(82, 172, 86);
+    font-family: avenir;
+}
+
+.sous-titre1 {
+    color : gray;
+    font-size: 15px;
+}
+
+.sous-titre2 {
+    color : rgb(82, 172, 86);
+}
+
+.sous-titre3 {
+    color : rgb(82, 172, 86);
+}
+
+.sous-titre4 {
+    color : rgb(82, 172, 86);
+}
+
+.sous-titre5 {
+    color : rgb(82, 172, 86);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 
+      1fr 2fr 1fr;
+    grid-template-areas: 
+      "header    header  header"
+      "sidebar   content content"
+      "sidebar   content content";
+  }
+  
+.item-a {
+    grid-area: header;
+
+}
+
+.item-b {
+    grid-area: sidebar;
+    border: 1px solid rgb(82, 172, 86);
+    border-width: 5px;
+    border-radius: 5px;
+    margin: 2px;
+    padding-left: 10px;
+    font-family: avenir;
+    font-size: 10px;
+    
+
+}
+.item-c {
+    grid-area: content;
+    margin-left: 10px
+}
+
+#Infos {
+    color : rgb(82, 172, 86)
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: middle;
+}
+
+.container3 {
+    display: flex;
+    align-items: middle;
+}
